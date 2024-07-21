@@ -7,4 +7,4 @@ retriever = test.chunk_embedding()
 print("嗨! 我是你的助手Steven，你想問什麼問題呢 : ")
 while True:
     input_text = input()
-    test.gogo(input_text)
+    test.chat(input_text)

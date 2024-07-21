@@ -77,7 +77,7 @@ class Dataload:
         self.retriever = vectorstore.as_retriever(k=4)
 
     
-    def gogo(self, input_text):
+    def chat(self, input_text):
 
         docs = self.retriever.invoke(input_text)
 
